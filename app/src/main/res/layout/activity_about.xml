@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".about">
+
+
+    <com.spark.submitbutton.SubmitButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="* রোযা সম্পর্কিত প্রশ্ন-উত্তর"
+        android:textColor="#AE0A0A0A"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="2000"
+        app:sub_btn_line_color="#009688"
+        app:sub_btn_ripple_color="#009688"
+        app:sub_btn_tick_color="@color/white"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="178dp" />
+    <com.spark.submitbutton.SubmitButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="* রোযা সম্পর্কিত প্রশ্ন-উত্তর"
+        android:textColor="#AE0A0A0A"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="2000"
+        app:sub_btn_line_color="#009688"
+        app:sub_btn_ripple_color="#009688"
+        app:sub_btn_tick_color="@color/white"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="0dp" />
+</LinearLayout>
